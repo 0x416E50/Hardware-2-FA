@@ -16,4 +16,4 @@ Save the Library files of SSD1306, MFRC 522, KY 040 as follows:
 - MFRC 522: [mfrc522.py](https://github.com/danjperron/micropython-mfrc522/blob/master/mfrc522.py)
 
 Save them in the Raspberry Pi Pico.
-Now save the main.py to run the program. 
+Now save the [main.py](https://github.com/0x416E50/Hardware-2-FA-/blob/main/main.py) to run the program. 
