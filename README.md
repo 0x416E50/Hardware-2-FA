@@ -15,6 +15,9 @@ Save the Library files of SSD1306, MFRC 522, KY 040 as follows:
 - KY 040 Rotary encoder: [rotary_irq_esp.py](https://github.com/miketeachman/micropython-rotary/blob/master/rotary_irq_esp.py),[rotary_irq_rp2.py](https://github.com/miketeachman/micropython-rotary/blob/master/rotary_irq_rp2.py)
 - MFRC 522: [mfrc522.py](https://github.com/danjperron/micropython-mfrc522/blob/master/mfrc522.py)
 
+### Note: **Pin is enteres by rotating the binary encoder anti clockwise. Pin is entered from left to right. Pressing on the rotary encoder saves the digit and move to the next digit.**  Entering '0' 4 times resets the circuit. 
+
 Save them in the Raspberry Pi Pico.
 Now save the [main.py](https://github.com/0x416E50/Hardware-2-FA-/blob/main/main.py) to run the program. 
 To read new tags, save and run [RFID_reader.py](https://github.com/0x416E50/Hardware-2-FA-/blob/main/RFID_reader.py)
+Make sure to change the uid, usernames, pin and GPIO pin.
