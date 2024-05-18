@@ -2,7 +2,7 @@
 
 ![image](https://github.com/0x416E50/Hardware-2-FA-/assets/167105040/b6fb3060-6fdf-40e4-80ee-e8ee6ddcc403)
 
-To add a tag, connect a micro USB cable to the Raspberry Pi Pico. Open Thonny IDE, and open main.py. There, in line numebr 27, there is the function **def_RFID_tag**.
+To add a tag, connect a micro USB cable to the Raspberry Pi Pico. Open Thonny IDE, and open main.py. There, in line numebr 27, edit the function **def_RFID_tag**.
 It's a dictionary, that is responsible to store all the registered tags, their Pins, and the respective GPIO pin that triggers the relay. 
 Add the tag, following the order
 
