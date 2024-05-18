@@ -1,3 +1,4 @@
+#reads RFID tag and displays it in OLED and Shell
 from mfrc522 import MFRC522
 import utime
 from machine import Pin, SoftI2C
