@@ -17,3 +17,4 @@ Save the Library files of SSD1306, MFRC 522, KY 040 as follows:
 
 Save them in the Raspberry Pi Pico.
 Now save the [main.py](https://github.com/0x416E50/Hardware-2-FA-/blob/main/main.py) to run the program. 
+To read new tags, save and run [RFID_reader.py](https://github.com/0x416E50/Hardware-2-FA-/blob/main/RFID_reader.py)
