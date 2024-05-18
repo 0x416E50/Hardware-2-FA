@@ -26,8 +26,8 @@ def display_message(oled, message, line=0):
     oled.show()
 def validate_rfid_tag(uid):
     users = {
-        141106900: ('Anubhab', 2003, 17),
-        1442825586: ('User2', 2008, 18)
+        141106900: ('User1', 2003, 17), # 141106900 is the uid of the rfid tag, 2003 is the pin, 17 is the related GPIO Pin
+        <uid>: ('<GPIO pin>', <pin>, <GPIO pin>)
     }
     return users.get(int.from_bytes(bytes(uid), "little", False), None)
 reader = MFRC522(spi_id=0, sck=2, miso=4, mosi=3, cs=1, rst=0)
